@@ -14,3 +14,7 @@
 const os = require("os");
 
 // write your code here
+
+const cpus = os.cpus();
+const models = cpus.map((cpu, index) => `CPU ${index}: ${cpu.model}`);
+models.forEach((model) => console.log(model));
