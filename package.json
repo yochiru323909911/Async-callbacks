@@ -1,0 +1,12 @@
+{
+  "name": "node-08-async-callbacks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exercise 8 - Node.js async callbacks (fs, os, path, timers): one git branch per exercise - starter with tests",
+  "scripts": {
+    "test": "node test/run.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

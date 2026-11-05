@@ -1,0 +1,7 @@
+node_modules
+
+# files your programs create when you run them
+log.txt
+backup/
+temp.txt
+data.txt
