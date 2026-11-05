@@ -14,3 +14,13 @@
 // Run: node ex03.js
 
 // write your code here
+
+function repeat(times) {
+    if (times < 0) {
+        console.log("Time's up!");
+        return;
+    }
+    console.log(times.toString());
+    setTimeout(() => repeat(times - 1), 1000);
+    }
+repeat(5);
